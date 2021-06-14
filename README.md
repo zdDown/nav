@@ -169,20 +169,20 @@ Thank you for your [contribution](https://github.com/xjh22222228/nav/issues), me
 
 
 
-## Suggest
+## Suggest to Original Author
 If you have any functional suggestions , you can initiate an [issue](https://github.com/xjh22222228/nav/issues) , Thank you.
 
 
 
-## Support
+## Support to Original Author
 The project was established in 2018 and has been maintaining and open source until now. After N iterations and optimizations, it would be my honor if the project can help you.
 
 You can invite the author to have a cup of coffee and continue to fight (please note the Github name)~
 
 <img src="https://cdn.jsdelivr.net/gh/xjh22222228/public@gh-pages/img/32.png" width="600">
 
-感谢您的认可：
-| 姓名    | 支持金额              |
+Thanks for your support：
+| Name    | Supported Money              |
 | --------------------------------------- |----------- |
 | [aiyou9](https://github.com/aiyou9)     | ￥50.00     |
 | [lastares](https://github.com/lastares)     | ￥25.00     |
