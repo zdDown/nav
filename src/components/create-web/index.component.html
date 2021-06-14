@@ -33,7 +33,7 @@
         </div>
         <div class="col">
           <nz-form-item>
-            <nz-form-label [nzSpan]="15" nzRequired>Private/nz-form-label>
+            <nz-form-label [nzSpan]="15" nzRequired>Private</nz-form-label>
             <nz-form-control [nzSpan]="9">
               <nz-switch formControlName="ownVisible"></nz-switch>
             </nz-form-control>
@@ -69,7 +69,7 @@
             <i nz-icon nzType="loading" nzTheme="outline" *ngIf="uploading; else loading"></i>
             <ng-template #loading>
               <label id="file">
-                <i nz-icon nzType="upload" nzTheme="outline" class="cursor-pointer" title="Upload"></i>
+                <i nz-icon nzType="upload" nzTheme="outline" class="cursor-pointer" title="上传"></i>
                 <input
                   type="file"
                   name="file"
@@ -132,7 +132,7 @@
         <nz-form-label [nzSpan]="4" [nzNoColon]="true"></nz-form-label>
         <nz-form-control [nzSpan]="20">
           <button nz-button nzType="default" nzBlock (click)="addMoreUrl()">
-            <i nz-icon nzType="plus"></i>Continue adding related URLs
+            <i nz-icon nzType="plus"></i>Continue to add other links
           </button>
         </nz-form-control>
       </nz-form-item>
