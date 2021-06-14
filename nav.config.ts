@@ -1,58 +1,58 @@
 import { IConfig } from './src/types'
 
 const c: IConfig = {
-  // [必填], 请填写您的仓库地址
+  // [Mondatory], Please replace following Github url with your own Github address which you forked in. 
   gitRepoUrl: 'https://github.com/51sec/nav',
 
-  // 部署分支
+  // Deployment branch name
   branch: 'main',
 
-  // 路由是否Hash模式, 如果是部署在github pages 务必设为 true
+  // If routing is hash mode. if it deployed into github pages or using Vercel, it has to be set to true
   hashMode: true,
 
-  // 是否显示右上角的 Github 图标
+  // is it displaying the Github icon on top right corner of the web page
   showGithub: true,
 
-  // 您的网站地址，有利于SEO
+  // what is your website address. It is good for your SEO
   homeUrl: 'https://nav3.cn',
 
-  // 网站标题
-  title: '发现导航 - 精选实用导航网站',
+  // Web Site Tiltle
+  title: 'Discovery Navigation - Featured and useful navigation websites',
 
-  // 网站描述
-  description: '发现导航 - 精选实用导航网站',
+  // Web Site description
+  description: 'Discovery Navigation - Featured and useful navigation websites - English',
 
-  // 网站关键字
-  keywords: '导航,前端资源,社区站点,设计师,实用工具,学习资源,运营,网络安全,node.js',
+  // Web Site Keyword
+  keywords: 'Navigation, front-end resources, community sites, designers, practical tools, learning resources, operations, network security, node.js',
 
-  // 默认主题: Light | Sim | Side | App | Shortcut
+  // Default Theme: Light | Sim | Side | App | Shortcut
   theme: 'Light',
 
-  // 网站底部内容, 版权信息、备案号, 可以是 HTML
+  // The content at the bottom of the website, copyright information, record number, can be HTML
   footerContent: `
-    <div style="font-weight: bold;">共收录\${total}个网站</div>
-    <div>Copyright © 2018-2021 nav3.cn, All Rights Reserved</div>
+    <div style="font-weight: bold;">Total collected \${total} websites </div>
+    <div>Copyright © 2018-2021 nav3.cn, Translated by 51sec.org. All Rights Reserved</div>
   `,
 
-  // 阿里巴巴矢量图库 https://www.iconfont.cn/
-  // 用在 Side 主题一级、二级菜单图标展示
+  // Alibaba icon https://www.iconfont.cn/
+  // IT will be used to show side theme's topic one level and second level menu icons Side 主题一级、二级菜单图标展示
   iconfontUrl: '//at.alicdn.com/t/font_2522843_wl70o31sy6.js',
 
-  // 百度统计地址
+  // Baidu statistics
   // https://tongji.baidu.com/web/welcome/login
-  baiduStatisticsUrl: 'https://hm.baidu.com/hm.js?4582be7af7e7c95ef75351e07c6c32ba',
+  //baiduStatisticsUrl: 'https://hm.baidu.com/hm.js?4582be7af7e7c95ef75351e07c6c32ba',
 
-  // CNZZ 统计地址
+  // CNZZ statisitics
   // https://www.cnzz.com/o_index.php
   cnzzStatisticsUrl: '',
 
-  // Sim 主题配置
+  // Sim Theme Configuration
   simThemeConfig: {
-    // 海报图
+    // Post Image
     posterImageUrls: [
       'https://raw.sevencdn.com/xjh22222228/nav/image/sim-wallpaper.jpg'
     ],
-    description: '这里收录多达 <b>${total}</b> 个优质网站， 助您工作、学习和生活'
+    description: 'Here collected total <b>${total}</b> websites, helping your work, life and studying'
   }
 }
 
