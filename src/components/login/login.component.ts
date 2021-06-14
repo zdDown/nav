@@ -33,18 +33,18 @@ export class LoginComponent implements OnInit {
 
   login() {
     if (!this.token || this.token.length < 40) {
-      return this.message.error('请填写正确的Token');
+      return this.message.error('Please fill in correct Token');
     }
 
     this.submiting = true
     verifyToken(this.token)
       .then(() => {
         setToken(this.token);
-        this.message.success('Token验证成功, 2秒后刷新!')
+        this.message.success('Token succesffully verified, refresh in 2 seconds!')
         setTimeout(() => window.location.reload(), 2000)
       })
       .catch(res => {
-        this.notification.error('Token 验证失败', res.message as string)
+        this.notification.error('Token failed verification', res.message as string)
       })
       .finally(() => {
         this.submiting = false
