@@ -1,7 +1,7 @@
 <nz-modal
   [nzWidth]="560"
   [(nzVisible)]="visible"
-  [nzTitle]="detail ? '编辑' : '新增'"
+  [nzTitle]="detail ? 'Edit' : 'Add'"
   (nzOnCancel)="handleCancel()"
   (nzOnOk)="handleOk()"
   [nzOkLoading]="uploading"
@@ -9,23 +9,23 @@
   <ng-container *nzModalContent>
     <form nz-form [formGroup]="validateForm">
       <nz-form-item>
-        <nz-form-label [nzSpan]="4" nzRequired>网站名称</nz-form-label>
-        <nz-form-control [nzSpan]="20" nzErrorTip="请输入名称">
-          <input formControlName="title" nz-input placeholder="发现导航" />
+        <nz-form-label [nzSpan]="4" nzRequired>Website Name</nz-form-label>
+        <nz-form-control [nzSpan]="20" nzErrorTip="Please Enter Website Name">
+          <input formControlName="title" nz-input placeholder="51Sec" />
         </nz-form-control>
       </nz-form-item>
 
       <nz-form-item>
-        <nz-form-label [nzSpan]="4" nzRequired>网站链接</nz-form-label>
-        <nz-form-control [nzSpan]="20" nzErrorTip="请输入网站链接">
-          <input formControlName="url" nz-input placeholder="https://nav3.cn" (blur)="onUrlBlur($event)" />
+        <nz-form-label [nzSpan]="4" nzRequired>Website URL</nz-form-label>
+        <nz-form-control [nzSpan]="20" nzErrorTip="Please Enter Website URL">
+          <input formControlName="url" nz-input placeholder="https://blog.51sec.org" (blur)="onUrlBlur($event)" />
         </nz-form-control>
       </nz-form-item>
 
       <div class="row">
         <div class="col">
           <nz-form-item>
-            <nz-form-label [nzSpan]="15" nzRequired>快捷方式</nz-form-label>
+            <nz-form-label [nzSpan]="15" nzRequired>Shortcut</nz-form-label>
             <nz-form-control [nzSpan]="9">
               <nz-switch formControlName="top"></nz-switch>
             </nz-form-control>
@@ -33,7 +33,7 @@
         </div>
         <div class="col">
           <nz-form-item>
-            <nz-form-label [nzSpan]="15" nzRequired>仅自己可见</nz-form-label>
+            <nz-form-label [nzSpan]="15" nzRequired>Private/nz-form-label>
             <nz-form-control [nzSpan]="9">
               <nz-switch formControlName="ownVisible"></nz-switch>
             </nz-form-control>
@@ -41,7 +41,7 @@
         </div>
         <div class="col">
           <nz-form-item>
-            <nz-form-label [nzSpan]="8">推荐指数</nz-form-label>
+            <nz-form-label [nzSpan]="8">Recommendation Index</nz-form-label>
             <nz-form-control [nzSpan]="24">
               <nz-rate formControlName="rate" nzAllowHalf></nz-rate>
             </nz-form-control>
@@ -50,13 +50,13 @@
       </div>
 
       <nz-form-item>
-        <nz-form-label [nzSpan]="4">图标地址</nz-form-label>
+        <nz-form-label [nzSpan]="4">Icon address</nz-form-label>
         <nz-form-control [nzSpan]="20">
           <nz-input-group [nzPrefix]="prefixIcon" [nzSuffix]="suffixIconSearch">
             <input
               formControlName="icon"
               nz-input
-              placeholder="支持将截图或复制图片粘贴此处上传"
+              placeholder="Support to screen capture or copy images to here for uploading"
               (blur)="onIconBlur($event)"
               (focus)="onIconFocus($event)"
             />
@@ -69,7 +69,7 @@
             <i nz-icon nzType="loading" nzTheme="outline" *ngIf="uploading; else loading"></i>
             <ng-template #loading>
               <label id="file">
-                <i nz-icon nzType="upload" nzTheme="outline" class="cursor-pointer" title="上传"></i>
+                <i nz-icon nzType="upload" nzTheme="outline" class="cursor-pointer" title="Upload"></i>
                 <input
                   type="file"
                   name="file"
@@ -84,11 +84,11 @@
       </nz-form-item>
 
       <nz-form-item>
-        <nz-form-label [nzSpan]="4">网站描述</nz-form-label>
+        <nz-form-label [nzSpan]="4">Website Description</nz-form-label>
         <nz-form-control [nzSpan]="20">
           <textarea
             formControlName="desc"
-            placeholder="发现导航, 精选实用导航网站"
+            placeholder="51Sec, Information Security Memo"
             nz-input
             [nzAutosize]="{ minRows: 3, maxRows: 5 }"
           >
@@ -132,7 +132,7 @@
         <nz-form-label [nzSpan]="4" [nzNoColon]="true"></nz-form-label>
         <nz-form-control [nzSpan]="20">
           <button nz-button nzType="default" nzBlock (click)="addMoreUrl()">
-            <i nz-icon nzType="plus"></i>继续添加关联链接
+            <i nz-icon nzType="plus"></i>Continue adding related URLs
           </button>
         </nz-form-control>
       </nz-form-item>
