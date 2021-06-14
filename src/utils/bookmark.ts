@@ -96,10 +96,10 @@ export function parseBookmark(htmlStr: string) {
           jj++
           data[ii - 1].nav.push({
             createdAt: nowCratedAt,
-            title: '未分类',
+            title: 'No Category',
             nav: [
               {
-                title: '未分类',
+                title: 'No Category',
                 nav: allNoCateData
               }
             ]
@@ -129,7 +129,7 @@ export function parseBookmark(htmlStr: string) {
               kk++
               data[ii - 1].nav[jj - 1].nav.push({
                 createdAt: nowCratedAt,
-                title: '未分类',
+                title: 'No Category',
                 nav: allNoCateData
               })
             }
@@ -181,15 +181,15 @@ export function parseBookmark(htmlStr: string) {
     const allNoCateData = findAllNoCate(roolDL)
     if (allNoCateData.length > 0) {
       data.push({
-        title: '未分类',
+        title: 'No Category',
         createdAt: nowCratedAt,
         nav: [
           {
             createdAt: nowCratedAt,
-            title: '未分类',
+            title: 'No Category',
             nav: [
               {
-                title: '未分类',
+                title: 'No Category',
                 nav: allNoCateData
               }
             ]
