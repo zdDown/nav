@@ -1,5 +1,5 @@
 <div class="fixbar">
-  <span *ngIf="isLogin" nz-tooltip nzTooltipTitle="查看信息">
+  <span *ngIf="isLogin" nz-tooltip nzTooltipTitle="Check Information">
     <div
       class="wrapper dark-border-color dark-action-hover"
       (click)="viewInfo()"
@@ -28,7 +28,7 @@
     </ul>
   </nz-dropdown-menu>
 
-  <span *ngIf="isLogin" nz-tooltip nzTooltipTitle="同步数据">
+  <span *ngIf="isLogin" nz-tooltip nzTooltipTitle="Sync data">
     <div
       class="wrapper dark-bg dark-border-color dark-action-hover"
       (click)="handleSync()"
@@ -38,19 +38,19 @@
     </div>
   </span>
 
-  <span nz-tooltip nzTooltipTitle="新增数据">
+  <span nz-tooltip nzTooltipTitle="Add data">
     <div class="wrapper dark-bg dark-border-color dark-action-hover" (click)="toggleModal()">
       <i class="iconfont iconchuangjian"></i>
     </div>
   </span>
   
-  <span *ngIf="showCollapse" nz-tooltip [nzTooltipTitle]="collapsed ? '展开' : '折叠'">
+  <span *ngIf="showCollapse" nz-tooltip [nzTooltipTitle]="collapsed ? 'Expanded' : 'Collapsed'">
     <div class="wrapper dark-bg dark-border-color dark-action-hover" (click)="collapse()">
       <i class="iconfont iconweibiaoti25 collapse" [class.active]="collapsed"></i>
     </div>
   </span>
 
-  <span nz-tooltip [nzTooltipTitle]="isDark ? '关闭暗黑' : '开启暗黑'">
+  <span nz-tooltip [nzTooltipTitle]="isDark ? 'Dark Theme Off' : 'Dark Theme On'">
     <div class="wrapper dark-bg dark-border-color dark-action-hover" (click)="toggleMode()">
       <i class="iconfont icondark dark" *ngIf="!isDark"></i>
       <img class="iconfont icondark" src="assets/img/light.svg" *ngIf="isDark">
