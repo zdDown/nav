@@ -38,10 +38,10 @@ export class ToolbarTitleWebComponent implements OnInit {
     const w = this.websiteList[page].nav[id].nav[this.index].nav
     const exists = w.some(item => item.name === payload.name)
     if (exists) {
-      return this.message.error('请不要重复添加')
+      return this.message.error('Please do not add a duplication')
     }
     w.unshift(payload)
-    this.message.success('新增成功!')
+    this.message.success('Add successful!')
     setWebsiteList(this.websiteList)
     this.toggleCreateModal()
   }
