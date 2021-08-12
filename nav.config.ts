@@ -14,16 +14,16 @@ const c: IConfig = {
   showGithub: true,
 
   // what is your website address. It is good for your SEO
-  homeUrl: 'https://nav3.cn',
+  homeUrl: 'https://nav.51sec.org',
 
   // Web Site Tiltle
-  title: 'Discovery Navigation - Featured and useful navigation websites',
+  title: '51Sec Navigation - Featured and useful navigation websites',
 
   // Web Site description
-  description: 'Discovery Navigation - Featured and useful navigation websites - English',
+  description: '51Sec Navigation - Featured and useful navigation websites - English',
 
   // Web Site Keyword
-  keywords: 'Navigation, front-end resources, community sites, designers, practical tools, learning resources, operations, network security, node.js',
+  keywords: 'Navigation, front-end resources, community sites, designers, practical tools, learning resources, operations, network, security',
 
   // Default Theme: Light | Sim | Side | App | Shortcut
   theme: 'Light',
