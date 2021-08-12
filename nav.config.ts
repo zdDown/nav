@@ -33,7 +33,7 @@ const c: IConfig = {
     <div><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5660349373091698"
      crossorigin="anonymous"></script></div>
     <div style="font-weight: bold;">Total collected \${total} websites </div>
-    <div>Copyright © 2018-2021 nav3.cn, Translated by 51sec. All Rights Reserved</div>
+    <div>Copyright © 2018-2021 nav3.cn.Translated by <a href="https://www.51sec.org" target="_blank">51Sec</a>. All Rights Reserved</div>
   `,
 
   // Alibaba icon https://www.iconfont.cn/
