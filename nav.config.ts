@@ -44,7 +44,7 @@ const c: IConfig = {
 
   // CNZZ statisitics
   // https://www.cnzz.com/o_index.php
-  cnzzStatisticsUrl: '',
+  //cnzzStatisticsUrl: '',
 
   // Sim Theme Configuration
   simThemeConfig: {
