@@ -26,7 +26,7 @@ const c: IConfig = {
   keywords: 'Navigation, front-end resources, community sites, designers, practical tools, learning resources, operations, network, security',
 
   // Default Theme: Light | Sim | Side | App | Shortcut
-  theme: 'Light',
+  theme: 'Side',
 
   // The content at the bottom of the website, copyright information, record number, can be HTML
   footerContent: `
