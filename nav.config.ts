@@ -31,8 +31,6 @@ const c: IConfig = {
   // The content at the bottom of the website, copyright information, record number, can be HTML
   footerContent: `
     <div style="font-weight: bold;">Total collected \${total} websites </div>
-    <div> <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5660349373091698"
-     crossorigin="anonymous"></script> </div>
     <div>Copyright ©2018-2021 nav3.cn.Translated by <a href="https://www.51sec.org" target="_blank">51Sec</a>. All Rights Reserved</div>
   `,
 
