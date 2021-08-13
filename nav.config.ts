@@ -52,7 +52,7 @@ const c: IConfig = {
     posterImageUrls: [
       'https://raw.sevencdn.com/xjh22222228/nav/image/sim-wallpaper.jpg'
     ],
-    description: 'Here collected total <b>${total}</b> websites, helping your work, life and studying'
+    description: 'Here collected total <b>${total}</b> websites, helping your work, living and studying'
   }
 }
 
