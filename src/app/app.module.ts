@@ -53,6 +53,7 @@ import { CreateWebComponent } from '../components/create-web/index.component';
 import { ToolbarTitleWebComponent } from '../components/toolbar-title/index.component';
 import { WebListComponent } from '../components/web-list/index.component';
 import { NZ_I18N } from 'ng-zorro-antd/i18n';
+import { en_US } from 'ng-zorro-antd/i18n';
 import { zh_CN } from 'ng-zorro-antd/i18n';
 import { registerLocaleData } from '@angular/common';
 import zh from '@angular/common/locales/zh';
