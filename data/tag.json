@@ -15,17 +15,17 @@
     "desc": "系统内置不可删除, 请在末尾添加"
   }
     "Main": {
-    "color": "#108ee9",
+    "color": "#62D2EA",
     "createdAt": "2018-01-25T07:56:31.372Z",
     "desc": "Main Site"
   }
   "Related": {
-    "color": "#108ee9",
+    "color": "#A4DBD8",
     "createdAt": "2018-01-25T07:56:31.372Z",
     "desc": "Related Site"
   }
   "Other": {
-    "color": "#108ee9",
+    "color": "#F7861E",
     "createdAt": "2018-01-25T07:56:31.372Z",
     "desc": "Other Site"
   }
