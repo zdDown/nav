@@ -1,10 +1,10 @@
 {
-  "中文": {
+  "CN": {
     "color": "#2db7f5",
     "createdAt": "2018-01-25T07:56:31.372Z",
     "desc": "系统内置不可删除, 请在末尾添加"
   },
-  "英文": {
+  "EN": {
     "color": "#f50",
     "createdAt": "2018-01-25T07:56:31.372Z",
     "desc": "系统内置不可删除, 请在末尾添加"
@@ -13,5 +13,20 @@
     "color": "#108ee9",
     "createdAt": "2018-01-25T07:56:31.372Z",
     "desc": "系统内置不可删除, 请在末尾添加"
+  }
+    "Main": {
+    "color": "#108ee9",
+    "createdAt": "2018-01-25T07:56:31.372Z",
+    "desc": "Main Site"
+  }
+  "Related": {
+    "color": "#108ee9",
+    "createdAt": "2018-01-25T07:56:31.372Z",
+    "desc": "Related Site"
+  }
+  "Other": {
+    "color": "#108ee9",
+    "createdAt": "2018-01-25T07:56:31.372Z",
+    "desc": "Other Site"
   }
 }
