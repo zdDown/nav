@@ -108,8 +108,9 @@ Support importing from Chrome bookmarks (WebKit kernel should be supported~), it
 
 The browser opens chrome://bookmarks/ to export the bookmarks to get the html file, and then import it from the background of the navigation website.
 
-
-
+## Manual Edit DB.JSON File
+All bookmarks are storing at db.json file. You can use JOSN Editor Online(https://jsoneditoronline.org/) to modify it manually.
+![Preview](https://photos.51sec.org/file/test1-51sec/2021/10/chrome_EzLImaNB23.png)
 
 
 ## Upgrade
@@ -146,45 +147,7 @@ yarn build
 
 
 
-## Contribution to Original Author
+## Original Author
 [点击这里](https://github.com/xjh22222228/nav/tree/master/data)
 
-Thank you for your [contribution](https://github.com/xjh22222228/nav/issues), men.
-
-<a href="https://github.com/YutHelloWorld">
-  <img src="https://avatars1.githubusercontent.com/u/20860159?s=460&v=4" width="30px" height="30px" />
-</a>
-<a href="https://github.com/JJJTHuang">
-  <img src="https://avatars3.githubusercontent.com/u/22817432?s=460&v=4" width="30px" height="30px" />
-</a>
-<a href="https://github.com/Fechin">
-  <img src="https://avatars1.githubusercontent.com/u/2541482?s=460&v=4" width="30px" height="30px" />
-</a>
-<a href="https://github.com/setdiaoyong">
-  <img src="https://avatars1.githubusercontent.com/u/62551864?s=460&v=4" width="30px" height="30px" />
-</a>
-
-
-
-
-
-
-## Suggest to Original Author
-If you have any functional suggestions , you can initiate an [issue](https://github.com/xjh22222228/nav/issues) , Thank you.
-
-
-
-## Support to Original Author
-The project was established in 2018 and has been maintaining and open source until now. After N iterations and optimizations, it would be my honor if the project can help you.
-
-You can invite the author to have a cup of coffee and continue to fight (please note the Github name)~
-
-<img src="https://cdn.jsdelivr.net/gh/xjh22222228/public@gh-pages/img/32.png" width="600">
-
-Thanks for your support：
-| Name    | Supported Money              |
-| --------------------------------------- |----------- |
-| [aiyou9](https://github.com/aiyou9)     | ￥50.00     |
-| [lastares](https://github.com/lastares)     | ￥25.00     |
-| 路人甲     | ￥50.00     |
 
