@@ -32,6 +32,7 @@ const c: IConfig = {
   footerContent: `
     <div style="font-weight: bold;">Total collected \${total} websites </div>
     <div>Copyright ©2018-2021 <a href="https://www.51sec.org" target="_blank">51Sec</a>. All Rights Reserved. </div>
+    <div><a href="https://clustrmaps.com/site/1b5c9" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=YVbnPZCPm3U7ILK6pBzyld_pTfI3tFX-ZzTBEwahQsw&cl=ffffff"></a></div>
   `,
 
   // Alibaba icon https://www.iconfont.cn/
