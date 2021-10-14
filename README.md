@@ -81,7 +81,7 @@ Like counting numbers "3 2 1" that simple.
 7.1 nav.config.ts - change the settings for homeurl, title, description, keywords, default theme, and footerContent. 
 7.2 Remove/replace the codes in /src/index.html file
 
-...conf
+```conf
 <!-- Remove/replace following codes which are for ads and statistics until before "</head>" -->  
   
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -111,7 +111,7 @@ Like counting numbers "3 2 1" that simple.
 </script>  
 
 <!-- Remove/replace above codes -->  
-...
+```
 
 
 
