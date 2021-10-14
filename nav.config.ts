@@ -34,7 +34,7 @@ const c: IConfig = {
     <td><div style="font-weight: bold;">Total collected \${total} websites </div>
     <div>Copyright ©2018-2021 <a href="https://www.51sec.org" target="_blank">51Sec</a>. </div>
     <div>All Rights Reserved. </div></td>
-    <td><div><a href="https://clustrmaps.com/site/1b5c9" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=YVbnPZCPm3U7ILK6pBzyld_pTfI3tFX-ZzTBEwahQsw&cl=ffffff"></a></div>
+    <td><div><a href="https://clustrmaps.com/site/1bkjt" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=nZqvMY-A_3Qj7KbGN-LEl1dfVrc_vayiGJ6G8SeNufw&cl=ffffff"></a></div>
     </td>     </tr></tbody></table></div>    
   `,
 
