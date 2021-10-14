@@ -39,8 +39,6 @@
 
 
 
-
-
 ## Features
 `Discovery Navigation` The idea is to make it simple and convenient without relying on back-end services, without complicated configuration and database configuration concepts, so it can be used out of the box.
 
@@ -82,6 +80,7 @@ Like counting numbers "3 2 1" that simple.
 
 7.1 nav.config.ts - change the settings for homeurl, title, description, keywords, default theme, and footerContent. 
 7.2 Remove/replace the codes in /src/index.html file
+
 ...
 <!-- Remove/replace following codes which are for ads and statistics until before "</head>" -->  
   
