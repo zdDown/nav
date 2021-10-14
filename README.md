@@ -79,6 +79,7 @@ Like counting numbers "3 2 1" that simple.
 7、Customize:
 
 7.1 nav.config.ts - change the settings for homeurl, title, description, keywords, default theme, and footerContent. 
+
 7.2 Remove/replace the codes in /src/index.html file
 
 ```conf
@@ -113,7 +114,7 @@ Like counting numbers "3 2 1" that simple.
 <!-- Remove/replace above codes -->  
 ```
 
-
+7.3 Replace logo from backend dashboard.
 
 
 ### Method 2 (Free Vercel)
