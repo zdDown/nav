@@ -42,9 +42,9 @@ const c: IConfig = {
   // https://tongji.baidu.com/web/welcome/login
   //baiduStatisticsUrl: 'https://hm.baidu.com/hm.js?4582be7af7e7c95ef75351e07c6c32ba',
 
-  // CNZZ statisitics
-  // https://www.cnzz.com/o_index.php
-  //cnzzStatisticsUrl: '',
+  CNZZ statisitics
+  https://www.cnzz.com/o_index.php
+  cnzzStatisticsUrl: 'https://new.cnzz.com/v1/login.php?siteid=1280434453',
 
   // Sim Theme Configuration
   simThemeConfig: {
