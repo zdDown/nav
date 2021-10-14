@@ -78,6 +78,45 @@ Like counting numbers "3 2 1" that simple.
 
 6、After 5 minutes, open https://用户名.github.io/nav , you will see a very powerful navigation website.
 
+7、Customize:
+
+7.1 nav.config.ts - change the settings for homeurl, title, description, keywords, default theme, and footerContent. 
+7.2 Remove/replace the codes in /src/index.html file
+...
+<!-- Remove/replace following codes which are for ads and statistics until before "</head>" -->  
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6S10GPN71"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y6S10GPN71');
+</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5660349373091698"
+     crossorigin="anonymous">
+</script>  
+
+<script>
+(function() {
+    var el = document.createElement('script');
+    el.type = 'text/javascript';
+    el.charset = 'utf-8';
+    el.async = true;
+    var ref = document.getElementsByTagName('script')[0];
+    ref.parentNode.insertBefore(el, ref);
+    el.src = 'https://w.cnzz.com/c.php?id=1280434453&async=1';
+})();
+</script>  
+
+<!-- Remove/replace above codes -->  
+...
+
+
+
+
 ### Method 2 (Free Vercel)
 The steps are the same as the first method, except that the fourth step is not needed.
 
