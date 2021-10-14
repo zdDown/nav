@@ -31,7 +31,7 @@ const c: IConfig = {
   // The content at the bottom of the website, copyright information, record number, can be HTML
   footerContent: `
     <div style="font-weight: bold;">Total collected \${total} websites </div>
-    <div>Copyright ©2018-2021 nav3.cn.Translated by <a href="https://www.51sec.org" target="_blank">51Sec</a>. All Rights Reserved</div>
+    <div>Copyright ©2018-2021 <a href="https://www.51sec.org" target="_blank">51Sec</a>. All Rights Reserved. </div>
   `,
 
   // Alibaba icon https://www.iconfont.cn/
@@ -42,9 +42,9 @@ const c: IConfig = {
   // https://tongji.baidu.com/web/welcome/login
   //baiduStatisticsUrl: 'https://hm.baidu.com/hm.js?4582be7af7e7c95ef75351e07c6c32ba',
 
-  CNZZ statisitics
-  https://www.cnzz.com/o_index.php
-  cnzzStatisticsUrl: 'https://new.cnzz.com/v1/login.php?siteid=1280434453',
+  //CNZZ statisitics
+  //https://www.cnzz.com/o_index.php
+  //cnzzStatisticsUrl: 'https://new.cnzz.com/v1/login.php?siteid=1280434453',
 
   // Sim Theme Configuration
   simThemeConfig: {
