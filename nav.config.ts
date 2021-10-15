@@ -17,7 +17,7 @@ const c: IConfig = {
   homeUrl: 'https://nav.51sec.org',
 
   // Web Site Tiltle
-  title: '51Sec Navigation - Collecting all interesting and using things',
+  title: '51Sec Navigation - a directory for yourself to collect all interesting things on the Internet',
 
   // Web Site description
   description: '51Sec Navigation - Featured and useful navigation websites - English',
