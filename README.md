@@ -55,24 +55,24 @@
 ## Deploy
 Like counting numbers "3 2 1" that simple.
 
-#### WMethod one (gh-pages free)
+#### Method one (gh-pages free)
 1、Fork the current project.。
 
 2、[https://github.com/settings/tokens](https://github.com/settings/tokens) apply for a token, check the corresponding permissions, if you don’t understand, select all, copy and save the token。
 
-3、https://github.com/用户名/nav/settings/secrets/actions/new  Create a new application token, name fill in TOKEN (All are uppercase)。
+3、https://github.com/<Your User Name>/nav/settings/secrets/actions/new  Create a new application token, name fill in TOKEN (All are uppercase)。
 
-4、打开 https://github.com/用户名/nav/actions click "Green Button"
+4、打开 https://github.com/<Your User Name>/nav/actions click "Green Button"
 
 5、Be sure to modify the project configuration file [nav.config.ts](nav.config.ts)
 
-6、After 5 minutes, open https://用户名.github.io/nav , you will see a very powerful navigation website.
+6、After 5 minutes, open https://<Your User Name>.github.io/nav , you will see a very powerful navigation website.
 
 7、Customize:
 
 7.1 nav.config.ts - change the settings for homeurl, title, description, keywords, default theme, and footerContent. 
 
-7.2 Remove/replace the codes in /src/index.html file
+7.2 Remove/replace the my own ads and analytic codes in /src/index.html file
 
 ```conf
 <!-- Remove/replace following codes which are for ads and statistics until before "</head>" -->  
@@ -118,15 +118,18 @@ For specific use, follow the steps  [https://github.com/apps/vercel](https://git
 
 Note: If you want to deploy your own domain name, then the above tutorial is also suitable, as it provides automated deployment, and then through CNAME or Revers Proxy implementation:
 
+  
+Sample configuration for Nginx:  
+
 ```conf
 # nginx
 
 server {
     listen       80;
-    server_name  www.nav3.cn nav3.cn;
+    server_name  nav.51sec.org;
 
     location / {
-        proxy_pass https://xjh22222228.github.io/nav/;
+        proxy_pass https://51sec.github.io/nav/;
     }
 }
 ```
@@ -142,39 +145,6 @@ The browser opens chrome://bookmarks/ to export the bookmarks to get the html fi
 ## Manual Edit DB.JSON File
 All bookmarks are storing at db.json file. You can use JOSN Editor Online(https://jsoneditoronline.org/) to modify it manually.
 ![Preview](https://photos.51sec.org/file/test1-51sec/2021/10/chrome_EzLImaNB23.png)
-
-
-## Upgrade
-Before you upgrade, back up the root directory datafolder and nav.config.ts, after the upgrade can be replaced.
-
-Top right, click Watchthe button first time tracking version upgrade.
-
-
-
-## Update log
-[CHANGELOG](https://github.com/xjh22222228/nav/releases)
-
-
-
-
-
-
-## Development and construction
-``` bash
-# Download
-git clone --depth=1 https://github.com/xjh22222228/nav.git
-
-cd nav
-
-# Installation dependencies
-yarn
-
-# Start
-yarn start
-
-# Packing 
-yarn build
-```
 
 
 
