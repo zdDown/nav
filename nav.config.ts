@@ -35,6 +35,12 @@ const c: IConfig = {
     Copyright ©2018-2021 <a href="https://www.51sec.org" target="_blank">51Sec</a>.  
     All Rights Reserved. </div></td>
     </tr></tbody></table></center></div>
+    <!-- Ezoic - bottom_of_page 129 - bottom_of_page -->
+    <div id="ezoic-pub-ad-placeholder-129"> 
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5660349373091698" crossorigin="anonymous">
+    </script>  
+</div>
+<!-- End Ezoic - bottom_of_page 129 - bottom_of_page -->
   `,
 
   // Alibaba icon https://www.iconfont.cn/
