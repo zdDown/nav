@@ -22,11 +22,11 @@
 - [Side online preview](https://nav3.cn/#/side)
 - [App online preview](https://nav3.cn/#/app)
 
-![Preview](https://raw.githubusercontent.com/xjh22222228/public/gh-pages/nav/1.png)
-![Preview](https://raw.githubusercontent.com/xjh22222228/public/gh-pages/nav/2.png)
-![Preview](https://raw.githubusercontent.com/xjh22222228/public/gh-pages/nav/3.png)
-![Preview](https://raw.githubusercontent.com/xjh22222228/public/gh-pages/nav/4.png)
-![Preview](https://raw.githubusercontent.com/xjh22222228/public/gh-pages/nav/5.png)
+![Preview](https://photos.51sec.org/file/test1-51sec/2021/10/chrome_oj3gOMGIiZ.png)
+![Preview](https://photos.51sec.org/file/test1-51sec/2021/10/chrome_V2xQL8Is3I.png)
+![Preview](https://photos.51sec.org/file/test1-51sec/2021/10/chrome_V2xQL8Is3I.png)
+![Preview](https://photos.51sec.org/file/test1-51sec/2021/10/chrome_Q8Y2MTOf3Y.png)
+![Preview](https://photos.51sec.org/file/test1-51sec/2021/10/chrome_z5cykLBVRd.png)
 
 
 
