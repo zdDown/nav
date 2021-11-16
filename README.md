@@ -29,7 +29,7 @@
 ![Preview](https://photos.51sec.org/file/test1-51sec/2021/10/chrome_z5cykLBVRd.png)
 
 
-
+<br />
 
 ## Features
 `Discovery Navigation` The idea is to make it simple and convenient without relying on back-end services, without complicated configuration and database configuration concepts, so it can be used out of the box.
@@ -51,10 +51,10 @@
 - 🍰 Support background management, no need to deploy.
 - 🍰 Support import from Chrome bookmarks
 
-
+<br />
 ## Deploy
 Like counting numbers "3 2 1" that simple.
-
+<br />
 #### Method one (gh-pages free)
 1、Fork the current project.。
 
@@ -134,7 +134,7 @@ server {
 }
 ```
 
-
+<br />
 ## Bookmark import
 Support importing from Chrome bookmarks (WebKit kernel should be supported~), it will automatically detect navigation that meets the three-level classification, and all others will be set as unclassified:
 
