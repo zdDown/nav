@@ -1,11 +1,11 @@
 
 <p align="center">
-  <a href="https://nav3.cn/?g">
-    <img src="src/assets/logo.png" width="130" />
+  <a href="https://nav.51sec.org">
+    <img src="https://cdn.jsdelivr.net/gh/51sec/nav@image/logo.png" width="130" />
   </a>
   <br />
-  <b>Discovery Navigation</b>
-  <p align="center">A purely static, powerful navigation website that supports SEO and online editing, I hope you will like it</p>
+  <b>51Sec Discovery Navigation</b>
+  <p align="center">A purely static, powerful navigation website that supports SEO and online editing, I hope you will like it. Forked from nav3.cn</p>
   <p align="center">Built-in collection of up to 800+ high-quality websites to help you work, study and live</p>
 
 </p>
