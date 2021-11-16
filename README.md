@@ -146,7 +146,8 @@ The browser opens chrome://bookmarks/ to export the bookmarks to get the html fi
 All bookmarks are storing at db.json file. You can use JOSN Editor Online(https://jsoneditoronline.org/) to modify it manually.
 ![Preview](https://photos.51sec.org/file/test1-51sec/2021/10/chrome_EzLImaNB23.png)
 
-
+## Changed CDN from sevencdn to jsdelivr
+index.ts file under 51sec/nav/src/services/
 
 ## Original Author
 [Click here to original developer's Github page](https://github.com/xjh22222228/nav/tree/master/data)
