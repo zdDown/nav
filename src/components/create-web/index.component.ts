@@ -146,11 +146,11 @@ export class CreateWebComponent implements OnInit {
         path
       }).then(() => {
         that.validateForm.get('icon')!.setValue(path)
-        that.message.success('Upload successful')
+        that.message.success('上传成功')
       }).catch(res => {
         that.notification.error(
-          `Error: ${res?.response?.status ?? 401}`,
-          'Upload failed, please try it again！'
+          `错误: ${res?.response?.status ?? 401}`,
+          '上传失败，请重试！'
         )
       }).finally(() => {
         that.uploading = false
@@ -164,7 +164,7 @@ export class CreateWebComponent implements OnInit {
     const file = files[0]
 
     if (!file.type.startsWith('image')) {
-      return this.message.error('Please don't upload invalid images')
+      return this.message.error('请不要上传非法图片')
     }
     this.handleUploadImage(file)
   }
