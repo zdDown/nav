@@ -62,7 +62,7 @@ Like counting numbers "3 2 1" that simple.
 
 3、https://github.com/<Your User Name>/nav/settings/secrets/actions/new  Create a new application token, name fill in TOKEN (All are uppercase)。
 
-4、打开 https://github.com/<Your User Name>/nav/actions click "Green Button"
+4、open https://github.com/<Your User Name>/nav/actions click "Green Button"
 
 5、Be sure to modify the project configuration file [nav.config.ts](nav.config.ts)
 
