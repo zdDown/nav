@@ -73,5 +73,5 @@ export async function createFile(
 }
 
 export function getCDN(path: string) {
-  return `https://raw.sevencdn.com/${authorName}/${repoName}/image/${path}`
+  return `https://cdn.jsdelivr.net/gh/${authorName}/${repoName}@image/${path}`
 }
