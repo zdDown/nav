@@ -93,18 +93,6 @@ Like counting numbers "3 2 1" that simple.
      crossorigin="anonymous">
 </script>  
 
-<script>
-(function() {
-    var el = document.createElement('script');
-    el.type = 'text/javascript';
-    el.charset = 'utf-8';
-    el.async = true;
-    var ref = document.getElementsByTagName('script')[0];
-    ref.parentNode.insertBefore(el, ref);
-    el.src = 'https://w.cnzz.com/c.php?id=1280434453&async=1';
-})();
-</script>  
-
 <!-- Remove/replace above codes -->  
 ```
 
