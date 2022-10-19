@@ -64,7 +64,7 @@ Like counting numbers "3 2 1" that simple.
 
 4、open https://github.com/<Your User Name>/nav/actions click "Green Button"
 
-5、Be sure to modify the project configuration file [nav.config.ts](nav.config.ts)
+5、Be sure to modify the project configuration file [nav.config.ts](nav.config.ts), change to your github repository url
 
 6、After 5 minutes, open https://<Your User Name>.github.io/nav , you will see a very powerful navigation website.
 
@@ -73,6 +73,8 @@ Like counting numbers "3 2 1" that simple.
 7.1 nav.config.ts - change the settings for homeurl, title, description, keywords, default theme, and footerContent. 
 
 7.2 Remove/replace the my own ads and analytic codes in /src/index.html file
+
+7.3 Tag categories (Manual Update) - /data/tag.json
 
 ```conf
 <!-- Remove/replace following codes which are for ads and statistics until before "</head>" -->  
