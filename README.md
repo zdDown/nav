@@ -74,8 +74,6 @@ Like counting numbers "3 2 1" that simple.
 
 7.2 Remove/replace the my own ads and analytic codes in /src/index.html file
 
-7.3 Tag categories (Manual Update) - /data/tag.json
-
 ```conf
 <!-- Remove/replace following codes which are for ads and statistics until before "</head>" -->  
   
@@ -95,8 +93,9 @@ Like counting numbers "3 2 1" that simple.
 
 <!-- Remove/replace above codes -->  
 ```
+7.3 Tag categories (Manual Update) - /data/tag.json
 
-7.3 Replace logo from backend dashboard.
+7.4 Replace logo from backend dashboard.
 
 
 ### Method 2 (Free Vercel)
