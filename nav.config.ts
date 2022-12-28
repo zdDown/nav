@@ -32,7 +32,7 @@ const c: IConfig = {
   footerContent: `
     <div><center><table><tbody>    <tr>
     <td><div style="font-weight: bold;">Total collected \${total} websites.  
-    Copyright ©2018-2021 <a href="https://www.51sec.org" target="_blank">51Sec</a>.  
+    Copyright ©2018-2023 <a href="https://www.51sec.org" target="_blank">51Sec</a>.  
     All Rights Reserved. </div></td>
     </tr></tbody></table></center></div>
     <!-- Ezoic - bottom_of_page 129 - bottom_of_page -->
